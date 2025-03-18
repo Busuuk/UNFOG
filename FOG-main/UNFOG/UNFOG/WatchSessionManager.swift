@@ -13,7 +13,7 @@ class WatchSessionManager: NSObject, WCSessionDelegate, ObservableObject {
     static let shared = WatchSessionManager()
     
     // For the shared container:
-    private let sharedDefaults = UserDefaults(suiteName: "group.com.unfogg") ?? .standard
+    private let sharedDefaults = UserDefaults(suiteName: "group.UNFOG.sharedData") ?? .standard
     
     @Published var buttonOrder: String {
         didSet {

@@ -4,7 +4,7 @@ import SwiftUI
 class WatchSessionManager: NSObject, WCSessionDelegate, ObservableObject {
     static let shared = WatchSessionManager()
     
-    private let sharedDefaults = UserDefaults(suiteName: "group.com.unfogg") ?? .standard
+    private let sharedDefaults = UserDefaults(suiteName: "group.UNFOG.sharedData") ?? .standard
     
     @Published var bpm: Int {
         didSet {

@@ -3,7 +3,7 @@ import WatchConnectivity
 
 struct MemoAidSettingsView: View {
     // Use shared store with suiteName
-    @AppStorage("memoText", store: UserDefaults(suiteName: "group.com.unfogg"))
+    @AppStorage("memoText", store: UserDefaults(suiteName: "group.UNFOG.sharedData"))
     private var memoText: String = ""
     
     private let session = WCSession.default

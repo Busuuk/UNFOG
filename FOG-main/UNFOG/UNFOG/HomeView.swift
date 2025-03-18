@@ -20,13 +20,13 @@ struct HomeView: View {
     
     // MARK: - App Group Storage
     // Replace "group.com.example.FOG" with your actual App Group identifier
-    @AppStorage("bpm", store: UserDefaults(suiteName: "group.com.unfogg"))
+    @AppStorage("bpm", store: UserDefaults(suiteName: "group.UNFOG.sharedData"))
     private var bpm: Double = 50
     
-    @AppStorage("memoText", store: UserDefaults(suiteName: "group.com.unfogg"))
+    @AppStorage("memoText", store: UserDefaults(suiteName: "group.UNFOG.sharedData"))
     private var memoText: String = ""
     
-    @AppStorage("buttonOrder", store: UserDefaults(suiteName: "group.com.unfogg"))
+    @AppStorage("buttonOrder", store: UserDefaults(suiteName: "group.UNFOG.sharedData"))
     private var buttonOrder: String = "Metronome, Memo Aid"
     
     // MARK: - Durations

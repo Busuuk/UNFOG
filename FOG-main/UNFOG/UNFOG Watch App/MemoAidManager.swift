@@ -9,7 +9,7 @@ class MemoAidManager: NSObject, ObservableObject, WCSessionDelegate {
     
     // Optionally read from app group. If you prefer
     // to rely on WatchSessionManager alone, you can remove this:
-    @Published var memoText: String = UserDefaults(suiteName: "group.com.unfogg")?
+    @Published var memoText: String = UserDefaults(suiteName: "group.UNFOG.sharedData")?
         .string(forKey: "memoText") ?? ""
     
     private override init() {
@@ -46,7 +46,7 @@ class MemoAidManager: NSObject, ObservableObject, WCSessionDelegate {
             DispatchQueue.main.async {
                 self.memoText = text
                 // Also store to the shared defaults if desired:
-                UserDefaults(suiteName: "group.com.unfogg")?.set(text, forKey: "memoText")
+                UserDefaults(suiteName: "group.UNFOG.sharedData")?.set(text, forKey: "memoText")
             }
         }
     }

@@ -5,13 +5,13 @@ struct WatchMetronomeView: View {
     @ObservedObject var sessionManager = WatchSessionManager.shared
     
     // Use the shared group from the watch extension side:
-    @AppStorage("bpm", store: UserDefaults(suiteName: "group.com.unfogg"))
+    @AppStorage("bpm", store: UserDefaults(suiteName: "group.UNFOG.sharedData"))
     var bpm: Int = 60
     
-    @AppStorage("buttonOrder", store: UserDefaults(suiteName: "group.com.unfogg"))
+    @AppStorage("buttonOrder", store: UserDefaults(suiteName: "group.UNFOG.sharedData"))
     var buttonOrder: String = "Metronome,Memo Aid"
     
-    @AppStorage("memoText", store: UserDefaults(suiteName: "group.com.unfogg"))
+    @AppStorage("memoText", store: UserDefaults(suiteName: "group.UNFOG.sharedData"))
     var memoText: String = ""
     
     private let metronome = Metronome()
