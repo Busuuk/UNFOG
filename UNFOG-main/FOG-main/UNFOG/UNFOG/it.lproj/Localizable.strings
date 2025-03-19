@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  Onboarding
+
+  Created by Francesco Romeo on 17/03/25.
+  
+*/
+
+"motor_assistant_title" = "Il tuo supporto motorio";
+"motor_assistant_description" = "Imposta la velocità del metronomo e il messaggio che l'assistente dirà quando avrai bisogno";
+
+"metronome_title" = "Imposta il metronomo";
+"metronome_description" = "Il metronomo ti aiuta a riprendere la tua libertà";
+
+"voice_guide_title" = "La tua guida vocale!";
+"voice_guide_description" = "Scegli cosa vorresti ascoltare quando hai bisogno di aiuto";
+
+"next_button" = "Avanti";
+"get_started_button" = "Iniziamo";
+
+"slow_button" = "Lento";
+"medium_button" = "Medio";
+"fast_button" = "Veloce";
+"memo_aid_prompt" = "Scrivi cosa vuoi sentire quando hai bisogno di aiuto";
+
+"metronome_settings"="Metronomo";
+"memoaid_settings"="Assistente Vocale";
+"settings"="Impostazioni";
+
+"metronome"="Metronomo";
+"chooselevel"="Scegli il livello di velocità del metronomo tra i seguenti";
+"save"="Salva";
+"salvato"="Salvato";
+
+"memoaid"="Assistente Vocale";
+"textmemo"="Scrivi quello che vuoi sentire quando l'assistente vocale è attivo";
+"EnterMemo"="Scrivi una nota...";
+"Savewatch"="Salva";
+"textsave"="La nota è stata salvata e inviata al Watch";
+"speedtext"="La velocità del metronomo è stata inviata al tuo Apple Watch.";
